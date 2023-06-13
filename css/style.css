@@ -299,12 +299,11 @@ mix-blend-mode: normal;
 
 
 .image-4{
-  position: absolute;
-
 width: 270px;
 height: 260px;
 left: 208px;
 top: 1726px;
+margin: 0px auto;
 
 background: url(/images/image_4.jpg);
 border-radius: 0px;
@@ -326,11 +325,11 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .image-5{
-  position: absolute;
   width: 270px;
   height: 260px;
   left: 515px;
   top: 1726px;
+  margin: 0px auto;
   
   background: url(/images/image_5.jpg);
   border-radius: 0px;
@@ -342,7 +341,7 @@ border-radius: 0px 0px 4px 4px;
   height: 368px;
   left: 515px;
   top: 1726px;
-  
+    
   background: #FFFFFF;
   /* material shadow v1 */
   
@@ -351,11 +350,11 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .image-6{
-  position: absolute;
   width: 270px;
   height: 260px;
   left: 822px;
   top: 1726px;
+  margin: 0px auto;
   
   background: url(/images/image_6.jpg);
   border-radius: 0px;
@@ -577,9 +576,11 @@ background: #FFFFFF;
 .square-all {
   position: absolute;
   width: 73px;
-height: 38px;
+  height: 38px;
   left: 480px;
   top: 250px;
+  margin: 0px auto;
+
 
   background: var(--square-all);
 }
@@ -621,6 +622,7 @@ height: 38px;
   height: 38px;
   left: 580px;
   top: 250px;
+  margin: 0px auto;
   background: var(--square-background);
   border-radius: 4px;
 }
@@ -648,6 +650,7 @@ height: 38px;
   height: 38px;
   left: 740px;
   top: 250px;
+  margin: 0px auto;
 
   background: var(--square-background);
   border-radius: 4px;
@@ -674,6 +677,7 @@ height: 38px;
   height: 38px;
   left: 920px;
   top: 250px;
+  margin: 0px auto;
 
   background: var(--square-background);
   border-radius: 4px;
@@ -700,6 +704,7 @@ height: 38px;
   height: 38px;
   left: calc(54.5% - 130px / 2 + 241px);
   top: 250px;
+  margin: 0px auto;
 
   background: var(--square-background);
   border-radius: 4px;
