@@ -1,12 +1,21 @@
 .primary{
 
-position: absolute;
-width: 1600px;
-height: 2410px;
-left: 200px;
-background: #FFFFFF;
+  display: block;
+  margin: 0px 200px;
+   
+  }
+
+.primary > .line-superior{
+
+display: block;
+margin: 0px 200px;
 }
 
+.primary > li{
+
+  display: block;
+  margin: 0px 200px;
+  }
 
 .secundary{
   position: absolute;
@@ -121,28 +130,27 @@ color: #212121;}
 
 .column-p-planning{
 
-position: absolute;
-width: 270px;
-height: 75px;
-left: 753px;
-top: 865px;
-
-font-family: var(--font-family);
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-
-letter-spacing: 0.03em;
-
-color: #757575;}
+  position: relative;
+  width: 270px;
+  height: 96px;
+  left: 715px;
+  top: 0px;
+  
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  
+  letter-spacing: 0.03em;
+  color: #757575;}
 
 .column-moderm-tech{
   position: relative;
   width: 270px;
   height: 16px;
   left: 1015px;
-  top: -32px;
+  top: -138px;
   
   font-family: var(--font-family);
   font-style: normal;
@@ -160,7 +168,7 @@ color: #757575;}
     width: 270px;
 height: 75px;
 left: 1015px;
-top: -30px;
+top: -140px;
 
 font-family: var(--font-family);
 font-style: normal;
@@ -213,7 +221,7 @@ color: #757575;}
 width: 371.15px;
 height: 46.24px;
 left: 610.43px;
-top: 990px;
+top: 1050px;
 
 font-family: var(--font-family);
 font-style: normal;
@@ -231,7 +239,7 @@ color: #212121;
 width: 263px;
 height: 42px;
 left: 669px;
-top: 1604px;
+top: 1644px;
 
 font-family: var(--font-family);
 font-style: normal;
@@ -284,6 +292,8 @@ mix-blend-mode: normal;
     height: 880px;
     top: 1800px;
     left: 200px;
+    border: 2px solid #ECECEC;
+
     
 }
 
@@ -421,8 +431,8 @@ button.over:hover {
 .line-superior{
 
 position: absolute;
-width: 1596px;
-height: 80px;
+width: 1600px;
+height: 85px;
 left: 0px;
 top: 50px;
 border: 2px solid #ECECEC;
@@ -982,7 +992,7 @@ color: #FFFFFF;
   width: 1600px;
   height: 252px;
   left: 0px;
-  top: 2200px;
+  top: 2150px;
   background: #2F303A;
   }
   
