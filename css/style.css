@@ -173,8 +173,22 @@ p {
   padding-right: 68px;
 }
 
-.flex-header > li {
+.flex-header > li{
   padding-right: 30px;
+
+}
+
+.size-of-icon-1 {
+  width: 16px;
+  height: 12px;
+}
+.svg-hover-email:hover {
+  stroke: #188ce8;
+}
+
+.size-of-icon-2 {
+  width: 10px;
+  height: 16px;
 }
 
 .style-bg-1 {
