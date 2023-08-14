@@ -69,6 +69,10 @@ body {
   color: #ffffff;
 }
 
+.studio-style > li {
+  padding-bottom: 6px;
+}
+
 .final-section {
   display: flex;
   flex-direction: column;
